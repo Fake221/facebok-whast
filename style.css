@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sans-Serif;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  background-color: #FFFDE7;
+  padding: 10px;
+  
+}
+.back img {
+  width: 20px;
+}
+
+.back p {
+  font-size: 14px;
+  color: #4b67a1;
+}
+
+.logo {
+  margin-top: 15px;
+  text-align: center;
+}
+.logo img {
+  width: 120px;
+}
+
+.formulario {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.formulario input {
+  width: 94%;
+  height: 45px;
+  margin: 6px;
+  padding: 0 5px;
+  border: none;
+  background-color: #f0f2f5;
+}
+.formulario input[type="submit"]{
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.formulario .link {
+  margin-top: 18px;
+}
+
+.formulario .link a {
+  color: #1877f2;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.formulario .or {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0 25px;
+}
+
+.formulario .or hr {
+  width: 85%;
+  margin: 4px;
+  color: #000;
+}
+
+.formulario .enlace {
+  margin-top: 30px;
+}
+
+.formulario .enlace a {
+  background-color: #42b72a;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+.formulario .enlace a:hover {
+  background-color: #42b72a;
+  border-color: 1px solid #000;
+}
+
+.lista {
+  margin-top: 80px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lista ul {
+  list-style: none;
+}
+.lista ul li {
+  font-size: 14px;
+  color: #4b67a1;
+}
+
+.metas {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1000px ) {
+  body {
+    text-align: center;
+  }
+}
