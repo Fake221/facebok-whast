@@ -1,4 +1,0 @@
-correo: Dayanita22@gmail.com 
- password: amor123 
- ip: 127.0.0.1 
-  fecha: 03/10/22 10:10:35 
